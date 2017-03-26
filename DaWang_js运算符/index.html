@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>运算符</title>
+</head>
+<body>
+    <p>i = 10,j = 20; i+j = ?</p>
+    <p id="sumid"></p>
+    <button onclick="mysum()">结果</button>
+    <script>
+        function mysum(){
+
+            var i = 10;
+            var j = 20;
+            var m = i+j;
+            document.getElementById("sumid").innerHTML=m;
+        }
+
+    </script>
+    <p>字符串拼接: a="wo是",b="老虎";那么我是?</p>
+    <p id="getid"></p>
+    <button onclick="result()">答案是</button>
+    <script>
+        function result(){
+            var a = "wo是";
+            var b="老虎";
+            var c = a+b;
+            document.getElementById("getid").innerHTML=c;
+        }
+    </script>
+    <p>if...else...条件语句</p>
+    <script>
+        var wo=20;
+        if (i>=16){
+            document.write("成年人");
+        }else
+        {
+            document.write("小屁孩");
+        }
+    </script>
+</body>
+</html>
